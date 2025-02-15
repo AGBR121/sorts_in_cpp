@@ -60,8 +60,12 @@ int main()
 
     cout << "Vector sin organizar: ";
     imprimirVector(&vect);
+    auto inicio = chrono::high_resolution_clock::now();
     quickSort(&vect,0,vect.size()-1);
+    auto fin = chrono::high_resolution_clock::now();
+    chrono::duration<int64_t, nano> duracion = fin - inicio;
     cout << "Vector organizado: ";
     imprimirVector(&vect);
+    cout << "La función tardó " << duracion.count() << " nanosegundos." << std::endl;
     return 0;
 }
