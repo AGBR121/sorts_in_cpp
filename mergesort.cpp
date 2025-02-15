@@ -2,6 +2,7 @@
 #include <vector>
 #include <cstdlib>
 #include <ctime>
+#include <chrono>
 using namespace std;
 
 vector<int> generarVectorAleatorio(int tamaño, int min, int max) {
