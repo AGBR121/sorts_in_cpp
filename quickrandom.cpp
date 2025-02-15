@@ -67,6 +67,6 @@ int main()
     chrono::duration<int64_t, nano> duracion = fin - inicio;
     cout << "Vector organizado: ";
     imprimirVector(&vect);
-    cout << "La función tardó " << duracion.count() << " nanosegundos." << std::endl;
+    cout << "La función tardó " << duracion.count() << " nanosegundos." << endl;
     return 0;
 }
