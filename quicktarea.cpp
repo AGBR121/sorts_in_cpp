@@ -68,7 +68,7 @@ int main(){
       exit(EXIT_FAILURE);
     }
     
-    //cout << "Pivote en la mitad o aleatorio (1: start, 2:medio, 3: final)"; //cin >> pivot;
+    //cout << "Pivote en la mitad o aleatorio (1: random, 2:medio, 3: final)"; //cin >> pivot;
     for(int potencia = 8; potencia <= 8; potencia++){
         quantity = pow(10, potencia);
         aleatorio.clear();
@@ -92,8 +92,6 @@ int main(){
         
     }}}
     
-    //PrintVector(&variables);
-
     //PrintVector(&variables);
     return 0;
 }
