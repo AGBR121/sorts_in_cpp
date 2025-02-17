@@ -69,7 +69,7 @@ int main(){
     }
     
     //cout << "Pivote en la mitad o aleatorio (1: random, 2:medio, 3: final)"; //cin >> pivot;
-    for(int potencia = 8; potencia <= 8; potencia++){
+    for(int potencia = 2; potencia <= 10; potencia++){
         quantity = pow(10, potencia);
         aleatorio.clear();
         tiempos << "POTENCIA 10^" <<potencia << endl;
